@@ -1,10 +1,4 @@
-/// <reference no-default-lib="true" />
-/// <reference lib="dom" />
-/// <reference lib="dom.iterable" />
-/// <reference lib="dom.asynciterable" />
-/// <reference lib="deno.ns" />
-
-import init, { transform, TransformOptions } from "npm:lightningcss-wasm";
+import init, { transform, TransformOptions } from "https://esm.sh/lightningcss-wasm@1.18.0";
 import { Plugin } from "$fresh/server.ts";
 
 type LightningCSSPluginOptions = Omit<TransformOptions, 'code'> & {
