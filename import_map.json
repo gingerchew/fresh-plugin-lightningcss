@@ -5,8 +5,7 @@
         "preact/": "https://esm.sh/preact@10.11.0/",
         "hooks": "https://esm.sh/v103/preact@10.11.0/hooks/src/index",
         "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
-        "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
-        "lightning": "npm:lightningcss-wasm"
+        "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1"
     }
 }
   
